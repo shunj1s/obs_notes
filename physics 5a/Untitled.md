@@ -1,0 +1,1 @@
+[[physics 5a/Drawing 2025-08-28 09.28.20.excalidraw.md#^-6ybtSDHGKYOlyUfPT7XQ|physics 08.28.25]]
