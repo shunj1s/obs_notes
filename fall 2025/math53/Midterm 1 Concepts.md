@@ -13,7 +13,8 @@
 	[[fall 2025/math53/lecture 2.md#^cill8WB_WzwsYLiHShmzF|polar calculus]]
 [[fall 2025/math53/discussion 3 09.3.25.md#^nXd0TmJUbnwTOyjMaxMr_|discussion 09.03.25]]
 	[[fall 2025/math53/discussion 3 09.3.25.md#^RKGJEC4dWy--SNvO4EOVS|area under a polar curve]]
-	
+[[notes/fall 2025/math53/textbook notes — 12.1-12.3.md#^LHW5njhuo9v9SO-ta_s2y|textbook notes 12.1-12.3]]
+
 	
 	
 	
