@@ -11,8 +11,8 @@
 	[[fall 2025/math53/lecture 2.md#^ikd2koX-LJ4OlnQ3fq4Sp|area enclosed by a curve ]]
 	[[fall 2025/math53/lecture 2.md#^DjrZFyLMEWjRQS4o7cToh|polar coordinates]]
 	[[fall 2025/math53/lecture 2.md#^cill8WB_WzwsYLiHShmzF|polar calculus]]
-[[fall 2025/math53/discussion 3 09.3.25.md#^nXd0TmJUbnwTOyjMaxMr_|discussion 09.03.25]]
-	[[fall 2025/math53/discussion 3 09.3.25.md#^RKGJEC4dWy--SNvO4EOVS|area under a polar curve]]
+[[discussion 09.3.25#^nXd0TmJUbnwTOyjMaxMr_|discussion 09.03.25]]
+	[[discussion 09.3.25#^RKGJEC4dWy--SNvO4EOVS|area under a polar curve]]
 [[notes/fall 2025/math53/textbook notes — 12.1-12.3.md#^LHW5njhuo9v9SO-ta_s2y|textbook notes 12.1-12.3]]
 
 	
