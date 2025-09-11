@@ -17,7 +17,6 @@
 	[[notes/fall 2025/physics 5a/lecture 3.md#^o7F5wlX3rmS4mmCagYaki|polar coordinates + motion in polar coords]]
 	[[notes/fall 2025/physics 5a/lecture 3.md#^RA5yH5795sleA3yjGHKfs|acceleration in polar coords]]
 	[[notes/fall 2025/physics 5a/lecture 3.md#^mSRfqPSGrRXnVS50xmGhu|examples]]
+[[fall 2025/physics 5a/lecture 4 09.09.25.md#^VvwMnsMEXq9k0i8DvUxfG|lecture notes 09.09.25]]
 
-	
-
-	
+	[[fall 2025/physics 5a/lecture 4 09.09.25.md#^XAg7n3Fjt2a0kMMH2o21s|dynamics]]
