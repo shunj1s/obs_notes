@@ -5,6 +5,11 @@
 
 ## kinematics + vectors
 [[vectors]]
+[[plane polar coordinates]]
+[[velocity and acceleration]]
+
+## dynamics
+
 
 
 
