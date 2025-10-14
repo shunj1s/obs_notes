@@ -1,0 +1,2 @@
+- idealized beams of electromagnetic radiation
+- 
