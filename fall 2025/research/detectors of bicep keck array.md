@@ -1,0 +1,4 @@
+- incident photons $\rightarrow$ electric signal
+	- Poisson noise pollutes the detection method, derived from [[poisson process]]
+	- CMB experiments often use **bolometers** in focal plane units
+	- 
