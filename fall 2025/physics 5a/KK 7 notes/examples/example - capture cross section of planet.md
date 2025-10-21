@@ -13,7 +13,7 @@ so, how do we find $b'$? first of all, we note that the energy of the spacecraft
 $K = \frac{1}{2}mv^2$ and $U = -mMG/r$. 
 $$ E = \frac{1}{2}mv^2 - \frac{mMG}{r}$$
 at first, $r\rightarrow\infty$, so
-$$L_i = -mb'v_0$$ $$E_i = \frac{1}{2}mv_0^2$$
+$$L_i = -mb'v_0$$ $$E_i = \frac{1}{2}mv_0^2$$de
 when the distance of closest approach = $R$, $\mathbf{r}$ and $\mathbf{v}$ are perpendicular.
 So:
 $$L_c = -mRv(r)$$

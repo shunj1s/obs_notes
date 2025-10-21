@@ -1,0 +1,6 @@
+[[lecture 12]]
+	[[7.2 Angular Momentum of a Particle]]
+	[[7.3 fixed axis rotation]]
+	[[7.4 torque]]
+[[lecture 13 10.14.25]]
+[[lecture 14 10.16.25]]
