@@ -1,3 +1,9 @@
 views:
   - type: table
     name: Table
+    filters:
+      and:
+        - file.folder == "notes/fall 2025/math53/hutchings notes"
+    order:
+      - file.name
+      - file.tags
