@@ -54,3 +54,29 @@ but then what about the inner ones? we need x as a range of functions of y and z
 lower limit = $4y^2 + 4z^2$
 upper limit = 4
 integrating this is far messier, but produces the same result ^^
+
+## 3.4.4 triple integrals in spherical coordinates
+$$(x, y, z) \rightarrow(\rho, \theta,\phi)$$
+![[Pasted image 20251024093857.png]]
+$\rho$ fulfills the same role as $r$
+$\theta$ is the same
+$\phi$ represents the angle the point creates with the $z$ axis
+
+$$z=\rho\cos\phi$$
+$$r=\rho\sin\phi$$
+from what we know about $r$:
+$$x=\rho\sin\phi\cos\theta$$
+$$y=\rho\sin\phi\sin\theta$$
+$$\rho=\sqrt{x^2+y^2+z^2}$$
+bounds of the coordinates:
+$$0\leq\phi\leq\pi$$
+$$\rho\geq0$$
+$\phi=0$ is a positive z axis, whereas $\phi = \pi$ is the negative z axis.
+if $\rho > 0$ is fixed, a sphere is created, where $\theta$ is longitude and $\phi$ is magnitude
+
+analogue of a box in spherical coordinates:
+
+$$E = { (\rho, \theta,\phi)| a\leq\rho\leq b; \alpha\leq\theta\leq\beta; c\leq\phi\leq d}\}$$
+thus:
+$$\iiint_EfdV = \int_c^d\int_\alpha^\beta\int_a^b=f\rho^2\sin\phi dpd\theta d\phi$$
+where $\rho^2\sin\phi$ is the magnification factor. 
