@@ -55,28 +55,53 @@ lower limit = $4y^2 + 4z^2$
 upper limit = 4
 integrating this is far messier, but produces the same result ^^
 
-## 3.4.4 triple integrals in spherical coordinates
-$$(x, y, z) \rightarrow(\rho, \theta,\phi)$$
-![[Pasted image 20251024093857.png]]
-$\rho$ fulfills the same role as $r$
-$\theta$ is the same
-$\phi$ represents the angle the point creates with the $z$ axis
+## 3.3.3 changing the order of integration in triple integrals
+example:
+$$\int_0^1\int_\sqrt{x}^1\int_0^{1-y}fdzdydx = \int_?^?\int_?^?\int_?^?fdxdydz$$
+so, our integration region:
+$$ 0 \leq x\leq 1$$ $$\sqrt{x}\leq y \leq 1$$
+$$0\leq z\leq 1-y$$
+the $\leq1$ for $x$ is redundant, as is $y\leq 1$. 
+thus, now we only have four inequalities defining the region: $x\geq0$, $y\geq\sqrt{x}$, and $0\leq z\leq 1-y$.
+so, what are the boundary surfaces? given by setting the inequalities to be equalities.
+![[Pasted image 20251024154150.png]]
 
-$$z=\rho\cos\phi$$
-$$r=\rho\sin\phi$$
-from what we know about $r$:
-$$x=\rho\sin\phi\cos\theta$$
-$$y=\rho\sin\phi\sin\theta$$
-$$\rho=\sqrt{x^2+y^2+z^2}$$
-bounds of the coordinates:
-$$0\leq\phi\leq\pi$$
-$$\rho\geq0$$
-$\phi=0$ is a positive z axis, whereas $\phi = \pi$ is the negative z axis.
-if $\rho > 0$ is fixed, a sphere is created, where $\theta$ is longitude and $\phi$ is magnitude
+now, we can rewrite the integral how we want:
+$$\int_0^1\int^{1-z}_0\int^{y^2}_0fdxdydz$$
+## 3.3.4 triple integrals to compute center of mass
+E = solid region
+$\rho:E\rightarrow\mathbb{R}$ mass density
+what is the total mass of the solid?
+$$M = \iiint_E\rho dV$$
+mass density = $\lim_{\Delta V\rightarrow0}\frac{\Delta m}{\Delta v}$ 
+small boxes with volume $\Delta v$ and mass $\Delta m$
+Thus, mass of box $\approx \rho\Delta v$
 
-analogue of a box in spherical coordinates:
+We can also use triple integrals to find the **center of mass**
+$(\bar{x},\bar{y},\bar{z})$
+$$\bar{x} = \frac{1}{M}\iiint_Ex\rho dV$$
+$$\bar{y} = \frac{1}{M}\iiint_Et y\rho dV$$
+$$\bar{z} = \frac{1}{M}\iiint_E z \rho dV$$
 
-$$E = { (\rho, \theta,\phi)| a\leq\rho\leq b; \alpha\leq\theta\leq\beta; c\leq\phi\leq d}\}$$
+#### example of center of mass problem
+$$E = [0, a]\times[0,a]\times[0,a]$$
+cube of side length a
+$$\rho = x^2 + y^2 + z^2$$
+Calculate the center of mass.
+By symmetry, $(\bar{x},\bar{y}, \bar{z}) = (c, c, c)$.
+
+Total mass:
+$$M = \int_0^a\int_0^a\int_0^a(x^2 + y^2+z^2)dzdydx$$
+$$=\int^a_0\int^a_0(x^2a + y^2a + \frac{a^3}{3})dydx$$
+$$ = \int_0^a(x^2a^2 + \frac{2a^4}{3})dx$$
+$$ = a^5$$
+$$\bar{x} = \int_0^a\int_0^a\int_0^ax(x^2 + y^2+z^2)dzdydx$$
+extract to make it $$\int_0^ax\int_0^a\int_0^a(x^2+y^2+z^2)dzdydx$$ since x is effectively a constant:
+$$ =\frac{1}{a^5}( \frac{a^6}{4} + \frac{a^6}{3})$$
+$$=\frac{7}{12}a$$
 thus:
-$$\iiint_EfdV = \int_c^d\int_\alpha^\beta\int_a^b=f\rho^2\sin\phi dpd\theta d\phi$$
-where $\rho^2\sin\phi$ is the magnification factor. 
+$$(\bar{x},\bar{y},\bar{z}) = ({\frac{7}{12}, \frac{7}{12},\frac{7}{12}})$$
+c does not even depend on a!
+
+
+
