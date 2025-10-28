@@ -2,7 +2,7 @@
 The task takes many relatively small images of low resolution and varying mask levels. The classification should separate the images into two groups: good beam and bad beam. The bad beams are characterized by the following:
 - Gaussian fit parameters outside the expected range
 - Differential parameters outside the expected range
-- High levels of noise
+- High levjfsdlkjels of noise
 - Readout errors/glitches
 
 Primary vector attempts:
