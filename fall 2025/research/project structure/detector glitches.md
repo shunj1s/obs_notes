@@ -1,0 +1,4 @@
+- dead rows/columns
+- one-time events "hot pixels"
+	- [[4 - beam measurements and analysis pipeline#^950756 | result at times from errors in chop reference]] 
+	- 
